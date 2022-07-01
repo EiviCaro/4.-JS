@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.fondo1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.encabezado {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.H1 {
+    display: flex;
+}
+
+.caja1 {
+    flex: 1;
+}
+
+.usuario {
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.avatar-m {
+    height: 128px;
+    margin: 20px;
+}
+
+.parrafo {
+    margin: 20px;
+}
+
+.H2 {
+    flex: 2;
+    margin-left: 30px;
+}
+
+.H2-caja1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+
+.linea1 {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.like-btn {
+    background-color: #c39a20;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px 4px black;
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
